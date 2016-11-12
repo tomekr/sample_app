@@ -31,6 +31,9 @@ gem 'jbuilder', '~> 2.5'
 group :development, :test do
   gem 'sqlite3'
   gem 'byebug', platform: :mri
+  gem 'guard'
+  gem 'guard-minitest'
+  gem 'minitest-reporters'
 end
 
 group :development do
